@@ -12,7 +12,7 @@ export default ({ data }) => {
           css={css`
             display: inline-block;
             border-bottom: 1px solid;
-            margin-bottom: 50px;
+            margin-bottom: ${rhythm(1)};
           `}
         >
           Blog 
