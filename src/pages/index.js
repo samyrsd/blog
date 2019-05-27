@@ -15,7 +15,7 @@ export default ({ data }) => {
             margin-bottom: 50px;
           `}
         >
-          What's in My Head
+          Blog 
         </h1>
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div key={node.id}>

@@ -21,7 +21,7 @@ export default ({ children }) => {
       css={css`
         margin: 0 auto;
         max-width: 800px;
-        padding: ${rhythm(2)};
+        padding: ${rhythm(1)};
         padding-top: ${rhythm(1.5)};
       `}
     >
@@ -42,7 +42,7 @@ export default ({ children }) => {
           float: right;
         `}
       >
-        who am i
+        whoami
       </Link>
       {children}
     </div>
