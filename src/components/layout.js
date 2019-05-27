@@ -19,7 +19,7 @@ const Nav = styled.div({
 const SiteTitle = ({ data }) => (
   <div>
     <Link to={`/`}>
-      <h3
+      <h1
         css={css`
           margin-bottom: ${rhythm(1.5)};
           display: inline-block;
@@ -27,7 +27,7 @@ const SiteTitle = ({ data }) => (
         `}
       >
         {data.site.siteMetadata.title}
-      </h3>
+      </h1>
     </Link>
   </div>
 )

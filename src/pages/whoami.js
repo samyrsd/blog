@@ -1,18 +1,33 @@
 import React from "react"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faInstagram, faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons'
 import Layout from "../components/layout"
 import { graphql } from "gatsby"
 
+const ExternalLink = (props) => (
+  <a href={props.to} target="_blank" rel="noopener noreferrer" style={{ marginRight: 20 }}>
+    {props.children}
+  </a>
+)
+
 export default ({ data }) => (
   <Layout>
-    <h1>Hi</h1>
+    <h1>Hi! 👋</h1>
     <p>
-      I'm Sam. A random guy on the Internet. 
-      You will find most of the things here are what I don't know and what's fun. 
-      Because I figured the best way the learn is to explain and the best way to have fun is to create fun stuff.
-      Life's a bit boring sometimes. Fun is not optional anymore. <span role="img" aria-label="smile">&#128540;</span>
+      I'm Sam.
+      You will find most of the things here are what I'm learning.
     </p>
-    <p><a href="https://twitter.com/samyo_ou" target="_blank" rel="noopener noreferrer">Twitter</a></p>
-    <p><a href="https://instagram.com/samyo_ou" target="_blank" rel="noopener noreferrer">Instagram</a></p>
+    <p style={{ marginTop: 50, fontSize: 30 }}>
+      <ExternalLink to={"https://twitter.com/samyo_ou"}>
+        <FontAwesomeIcon icon={faTwitter} />
+      </ExternalLink>
+      <ExternalLink to={"https://instagram.com/samyo_ou"}>
+        <FontAwesomeIcon icon={faInstagram} />
+      </ExternalLink>
+      <ExternalLink to={"https://github.com/samyrsd"}>
+        <FontAwesomeIcon icon={faGithub} />
+      </ExternalLink>
+    </p>
   </Layout>
 )
 

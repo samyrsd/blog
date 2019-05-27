@@ -8,7 +8,7 @@ export default ({ data }) => {
   return (
     <Layout>
       <div>
-        <h1
+        <h2
           css={css`
             display: inline-block;
             border-bottom: 1px solid;
@@ -16,7 +16,7 @@ export default ({ data }) => {
           `}
         >
           Blog 
-        </h1>
+        </h2>
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div key={node.id}>
             <Link
@@ -28,16 +28,18 @@ export default ({ data }) => {
             >
               <h3
                 css={css`
-                  margin-bottom: ${rhythm(1 / 4)};
+                  margin-bottom: ${rhythm(1 / 2)};
                 `}
               >
                 {node.frontmatter.title}{" "}
                 <span
                   css={css`
                     color: #bbb;
+                    font-size: 14px;
+                    float: right;
                   `}
                 >
-                  — {node.frontmatter.date}
+                  {node.frontmatter.date}
                 </span>
               </h3>
             </Link>
