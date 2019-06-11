@@ -12,7 +12,7 @@ const ExternalLink = (props) => (
 
 export default ({ data }) => (
   <Layout>
-    <h1>Hi! 👋</h1>
+    <h1>Hi! <span role="img" aria-label="hi">👋</span></h1>
     <p>
       I'm Sam.
       This blog are just brain dumps. Things I didn't know. Things I'm learning. Things I'm interested in. Just for fun!
