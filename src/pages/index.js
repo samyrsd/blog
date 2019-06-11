@@ -15,7 +15,7 @@ export default ({ data }) => {
             margin-bottom: ${rhythm(1)};
           `}
         >
-          Blog 
+          Blog
         </h2>
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div key={node.id}>

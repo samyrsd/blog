@@ -15,7 +15,7 @@ export default ({ data }) => (
     <h1>Hi! 👋</h1>
     <p>
       I'm Sam.
-      You will find most of the things here are what I'm learning.
+      This blog are just brain dumps. Things I didn't know. Things I'm learning. Things I'm interested in. Just for fun!
     </p>
     <p style={{ marginTop: 50, fontSize: 30 }}>
       <ExternalLink to={"https://twitter.com/samyo_ou"}>
