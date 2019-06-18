@@ -15,7 +15,7 @@ export default ({ data }) => (
     <h1>Hi! <span role="img" aria-label="hi">👋</span></h1>
     <p>
     I'm Sam.
-    The title of this site is <strong>Thing's I don't know</strong> inspired by Richard Feynman's <strong>NOTEBOOK OF THINGS I DON'T KNOW ABOUT</strong>.
+    The title of this site is <strong>Things I don't know</strong> inspired by Richard Feynman's <strong>NOTEBOOK OF THINGS I DON'T KNOW ABOUT</strong>.
     So most things in here are just brain dumps. Things that are interesting and fun to find out.
     </p>
     <p style={{ marginTop: 50, fontSize: 30 }}>
