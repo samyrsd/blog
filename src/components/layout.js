@@ -59,7 +59,7 @@ export default ({ children }) => {
     <Header>
       <SiteTitle data={data}/>
       <Nav>
-        <NavLink to={`/`}>blog</NavLink>
+        <NavLink to={`/`}>home</NavLink>
         <NavLink to={`/whoami/`}>whoami</NavLink>
       </Nav>
       {children}

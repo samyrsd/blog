@@ -14,8 +14,9 @@ export default ({ data }) => (
   <Layout>
     <h1>Hi! <span role="img" aria-label="hi">👋</span></h1>
     <p>
-      I'm Sam.
-      This blog are just brain dumps. Things I didn't know. Things I'm learning. Things I'm interested in. Just for fun!
+    I'm Sam.
+    The title of this site is <strong>Thing's I don't know</strong> inspired by Richard Feynman's <strong>NOTEBOOK OF THINGS I DON'T KNOW ABOUT</strong>.
+    So most things in here are just brain dumps. Things that are interesting and fun to find out.
     </p>
     <p style={{ marginTop: 50, fontSize: 30 }}>
       <ExternalLink to={"https://twitter.com/samyo_ou"}>
