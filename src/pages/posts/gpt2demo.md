@@ -1,5 +1,5 @@
 ---
-title: "GPT-2 Demo"
+title: "🧠 GPT-2 Demo"
 date: "2019-08-01"
 ---
 
