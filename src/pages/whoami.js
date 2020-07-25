@@ -17,10 +17,10 @@ export default ({ data }) => (
       Hey!
     </p>
     <p style={{ marginTop: 50, fontSize: 30 }}>
-      <ExternalLink to={"https://twitter.com/samyo_ou"}>
+      <ExternalLink to={"https://twitter.com/samyouxyz"}>
         <FontAwesomeIcon icon={faTwitter} />
       </ExternalLink>
-      <ExternalLink to={"https://instagram.com/samyo_ou"}>
+      <ExternalLink to={"https://instagram.com/samyouxyz"}>
         <FontAwesomeIcon icon={faInstagram} />
       </ExternalLink>
       <ExternalLink to={"https://github.com/samyrsd"}>
