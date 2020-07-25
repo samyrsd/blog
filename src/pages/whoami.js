@@ -14,8 +14,7 @@ export default ({ data }) => (
   <Layout>
     <h1>Hi! <span role="img" aria-label="hi">👋</span></h1>
     <p>
-      Hey! I'm Sam. I like to do software engineering. I am not particularly passionate about any technology stack, language or framework.
-      I always see them as great tools to build something that solve a problem. So I love every technology as long as it solve problems.
+      Hey!
     </p>
     <p style={{ marginTop: 50, fontSize: 30 }}>
       <ExternalLink to={"https://twitter.com/samyo_ou"}>
